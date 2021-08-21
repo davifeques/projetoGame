@@ -1,11 +1,19 @@
-.canvas {
-    border: 1px solid red;
-  }
 
-#startButton {
-    height: 100px;
-    width: 100px;
+
+.startButton {
+    height: 50px;
+    width: 200px;
     border: 1px solid red;
-    background-color: white;
+    background-color: black;
     font-size: 30px;
+    color: red;
+}
+
+.restartButton {
+  height: 50px;
+  width: 200px;
+  border: 1px solid red;
+  background-color: whitesmoke;
+  font-size: 30px;
+  color: red;
 }

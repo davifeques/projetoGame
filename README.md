@@ -11,8 +11,8 @@ This project is kept under public domain. The objective of this document is to f
 
 ### INSTALAÇÃO LOCAL / LOCAL INSTALLATION 
 
-• Em qualquer navegador do seu computador acesse o link: https://ramunizbh.github.io/project1/
-• In any browser navigator of your computer accessed the link: https://ramunizbh.github.io/project1/
+• Em qualquer navegador do seu computador acesse o link: https://github.com/davifeques/projetoGame
+• In any browser navigator of your computer accessed the link: https://github.com/davifeques/projetoGame
 
 ### Regras do Jogo / RULES OF THE GAME
 Convenções adotadas no game para ganhar ou perder:

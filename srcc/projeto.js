@@ -124,7 +124,7 @@ const ranger = {
 
 const background = {
   x: 0,
-  speed: 5,
+  speed: 4,
   imgBackgroundX: 0,
   imgBackgroundY: 180,
   largura: 1800,
@@ -210,7 +210,7 @@ const enemy = {
 
   enemies: [], // fazer random correto 
   refresh(){
-    const passed100Frames = frames % 300 === 0;
+    const passed100Frames = frames % 280 === 0;
     if (passed100Frames) {
       // adicionar novo enemy na lista, 
       enemy.enemies.push({x: Math.floor(Math.random()*2),y: 3200});
@@ -218,7 +218,7 @@ const enemy = {
       //console.log(enemy.enemies);
     }
     enemy.enemies.forEach(function (enemyPosition) {
-      enemyPosition.y = enemyPosition.y -8-frames*0.01;
+      enemyPosition.y = enemyPosition.y -10-frames*0.01;
       if (enemy.colision(enemyPosition)) {
         
       }
